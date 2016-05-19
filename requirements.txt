@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed May 18 19:35:00 2016
+
+@author: russell
+"""
+
+-e git+https://github.com/redmanr/python-tools4caom2.git#egg=tools4caom2
+-e git+https://github.com/redmanr/python-jcmt2caom2.git#egg=jcmt2caom2
+-e git+https://github.com/redmanr/ngls2jsa.git
