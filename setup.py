@@ -9,7 +9,7 @@ from setuptools import setup, find_packages
 import sys
 
 if sys.version_info[0] < 3:
-    print('python version: ' + sys.version_info)
+    print(sys.version_info)
     print('The jpggps2kml package is only compatible with Python version 3.n')
     sys.exit(-1)
 
