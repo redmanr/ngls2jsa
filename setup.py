@@ -8,9 +8,9 @@ Created on Wed May 18 19:12:12 2016
 from setuptools import setup, find_packages
 import sys
 
-if sys.version_info[0] < 3:
+if sys.version_info[0] > 2:
     print(sys.version_info)
-    print('The jpggps2kml package is only compatible with Python version 3.n')
+    print('The jpggps2kml package is only compatible with Python version 2.n')
     sys.exit(-1)
 
 setup(name='ngls2jsa',
