@@ -1,3 +1,3 @@
--e git+https://github.com/redmanr/python-tools4caom2.git#egg=tools4caom2
--e git+https://github.com/redmanr/python-jcmt2caom2.git#egg=jcmt2caom2
+-e git+https://github.com/eaobservatory/python-tools4caom2.git#egg=tools4caom2
+-e git+https://github.com/eaobservatory/python-jcmt2caom2.git#egg=jcmt2caom2
 -e git+https://github.com/redmanr/ngls2jsa.git#egg=ngls2jsa
