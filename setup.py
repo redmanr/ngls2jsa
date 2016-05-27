@@ -14,12 +14,11 @@ if sys.version_info[0] < 3:
     sys.exit(-1)
 
 setup(name='ngls2jsa',
-      version='0.1.0',
-      description='scripts to decorate NGLS files with FITS headers needed '
-                  'for ingestion into the JCMT Science Archive,
+      version='1.0.0a',
+      description='Scripts to decorate NGLS files with FITS headers needed '
+                  'for ingestion into the JCMT Science Archive',
       author='Russell O. Redman',
       author_email='russell.o.redman@gmail.com',
-      install_requires=['tools4caom2',
-                        'jcmt2caom2'],
-      packages=find_packages(exclude=['*.test']),
+      install_requires=['tools4caom2'],
+      packages=find_packages(exclude=['*.test'])
     )
